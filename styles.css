@@ -198,17 +198,25 @@ a:hover {
 
 .masthead {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding-block: 1.25rem 1.1rem;
 }
 
 .imprint {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   color: var(--ink);
   font-size: 1.125rem;
   letter-spacing: 0.08em;
   text-decoration: none;
+}
+
+.imprint img {
+  width: 24px;
+  height: 24px;
 }
 
 .masthead-link {
